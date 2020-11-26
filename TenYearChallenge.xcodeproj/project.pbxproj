@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045AE450256F62A800857F4C /* Goldman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04133CBE256E1FC8009C9EA1 /* Goldman-Regular.ttf */; };
+		045AE454256F6EDA00857F4C /* Goldman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04133CBD256E1FC8009C9EA1 /* Goldman-Bold.ttf */; };
 		04C7BB442568ECE100CA4C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BB432568ECE100CA4C6F /* AppDelegate.swift */; };
 		04C7BB462568ECE100CA4C6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BB452568ECE100CA4C6F /* SceneDelegate.swift */; };
 		04C7BB482568ECE100CA4C6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BB472568ECE100CA4C6F /* ViewController.swift */; };
 		04C7BB4B2568ECE200CA4C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BB492568ECE200CA4C6F /* Main.storyboard */; };
 		04C7BB4D2568ECE700CA4C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BB4C2568ECE700CA4C6F /* Assets.xcassets */; };
 		04C7BB502568ECE700CA4C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BB4E2568ECE700CA4C6F /* LaunchScreen.storyboard */; };
+		04C7BB7E256A797600CA4C6F /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BB7D256A797300CA4C6F /* SearchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04133CBD256E1FC8009C9EA1 /* Goldman-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goldman-Bold.ttf"; sourceTree = "<group>"; };
+		04133CBE256E1FC8009C9EA1 /* Goldman-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goldman-Regular.ttf"; sourceTree = "<group>"; };
 		04C7BB402568ECE100CA4C6F /* TenYearChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenYearChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C7BB432568ECE100CA4C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C7BB452568ECE100CA4C6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		04C7BB4C2568ECE700CA4C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C7BB4F2568ECE700CA4C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C7BB512568ECE700CA4C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C7BB7D256A797300CA4C6F /* SearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04133CBC256E1FB4009C9EA1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				04133CBD256E1FC8009C9EA1 /* Goldman-Bold.ttf */,
+				04133CBE256E1FC8009C9EA1 /* Goldman-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		04C7BB372568ECE100CA4C6F = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +71,11 @@
 		04C7BB422568ECE100CA4C6F /* TenYearChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				04133CBC256E1FB4009C9EA1 /* Font */,
 				04C7BB432568ECE100CA4C6F /* AppDelegate.swift */,
 				04C7BB452568ECE100CA4C6F /* SceneDelegate.swift */,
 				04C7BB472568ECE100CA4C6F /* ViewController.swift */,
+				04C7BB7D256A797300CA4C6F /* SearchData.swift */,
 				04C7BB492568ECE200CA4C6F /* Main.storyboard */,
 				04C7BB4C2568ECE700CA4C6F /* Assets.xcassets */,
 				04C7BB4E2568ECE700CA4C6F /* LaunchScreen.storyboard */,
@@ -125,8 +142,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C7BB502568ECE700CA4C6F /* LaunchScreen.storyboard in Resources */,
+				045AE454256F6EDA00857F4C /* Goldman-Bold.ttf in Resources */,
 				04C7BB4D2568ECE700CA4C6F /* Assets.xcassets in Resources */,
 				04C7BB4B2568ECE200CA4C6F /* Main.storyboard in Resources */,
+				045AE450256F62A800857F4C /* Goldman-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +159,7 @@
 				04C7BB482568ECE100CA4C6F /* ViewController.swift in Sources */,
 				04C7BB442568ECE100CA4C6F /* AppDelegate.swift in Sources */,
 				04C7BB462568ECE100CA4C6F /* SceneDelegate.swift in Sources */,
+				04C7BB7E256A797600CA4C6F /* SearchData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
